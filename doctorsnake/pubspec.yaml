@@ -1,0 +1,71 @@
+name: doctorsnake
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.8.0
+  just_audio: ^0.10.4
+  lottie: ^3.3.1
+  google_fonts: ^6.2.1
+  in_app_purchase: ^3.2.3
+  collection: ^1.19.0
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/doctorjeff.png
+    - assets/monitorcardiaco.json
+    - assets/pilula1.png
+    - assets/pilula2.png
+    - assets/pilula3.png
+    - assets/pilula4.png
+    - assets/pilula5.png
+    - assets/cabeca1.png
+    - assets/cabeca2.png
+    - assets/cabeca3.png
+    - assets/cabeca4.png
+    - assets/calda1.png
+    - assets/calda2.png
+    - assets/calda3.png
+    - assets/calda4.png
+    - assets/corpo1.png
+    - assets/corpo2.png
+    - assets/corpo3.png
+    - assets/curva1.png
+    - assets/curva2.png
+    - assets/curva3.png
+    - assets/curva4.png
+    - assets/fundotela.png
+    - assets/bacterias.json
+    - assets/frascoremedio.png
+    - assets/star.json
+    - assets/sound8bit.wav
+    - assets/gamecolect.wav
+    - assets/capainiciotela.png
+    - assets/splash_gameboy.png
+    - assets/start_sound.wav
+    - assets/start_game.wav
+
+  fonts:
+    - family: PressStart2P
+      fonts:
+        - asset: assets/PressStart2P-Regular.ttf
